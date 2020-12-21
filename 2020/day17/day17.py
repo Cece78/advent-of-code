@@ -19,8 +19,6 @@ def create_positions(data):
                 active.add((x, y, 0))
     return active
 
-print(create_positions(puzzle))
-
 
 def count_neighbours(position, active):
     x, y, z = position
